@@ -1,35 +1,74 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  background-color: #181618;
+  color: #f7fffb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-a,
-.green {
+a {
+  font-family: 'Source Sans 3', sans-serif !important;
+  color: #f7fffb;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+h1 {
+  font-size: 56px;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h2 {
+  font-size: 46px;
+}
+
+span {
+  font-size: 28px;
+}
+
+p {
+  font-size: 22px;
+}
+
+span {
+  font-family: 'Source Sans 3', sans-serif;
+}
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero button,
+.contact button {
+  background-color: #00a795;
+  padding: 1.3vw 1.7vw;
+  border: none;
+  color: #f7fffb;
+  border-radius: 7px;
+}
+
+.projects,
+.hero,
+.about,
+footer {
+  padding-inline: 3vw;
+}
+
+.projects,
+.about,
+.contact {
+  margin-top: 16vh;
 }
