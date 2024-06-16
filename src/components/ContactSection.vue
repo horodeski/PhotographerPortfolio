@@ -1,9 +1,10 @@
 <template>
   <section class="contact">
-    <h1>Vamos conversar?</h1>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you</p>
     <div class="box-email">
-      <input placeholder="Sua mensagem" type="text" />
-      <button>Enviar</button>
+      <input placeholder="Your message" type="text" />
+      <button>Send</button>
     </div>
   </section>
 </template>
