@@ -74,7 +74,14 @@ p {
   padding: 1.3vw 1.7vw;
   border: none;
   color: #f7fffb;
+  transition: 0.3s all ease-in-out;
   border-radius: 7px;
+}
+
+.hero button:hover,
+.contact button:hover {
+  cursor: pointer;
+  background-color: #00796d;
 }
 
 .projects,
