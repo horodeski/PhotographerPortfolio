@@ -18,7 +18,6 @@
   flex-direction: column;
   gap: 3vh;
   padding: 10vw;
-  background-color: #2b2629;
 }
 
 .contact input {
