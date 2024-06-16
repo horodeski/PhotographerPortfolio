@@ -7,8 +7,8 @@
       <div class="item item4"><img src="../../public/casal2.png" alt="Beach" /></div>
     </div>
     <div class="description">
-      <h2>Meus projetos</h2>
-      <p>Explore meus projetos</p>
+      <h2>Our Gallery</h2>
+      <p>Explore Our Work</p>
     </div>
   </section>
 </template>
