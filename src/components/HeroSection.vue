@@ -3,10 +3,7 @@
     <h1>Capture moments, create memories.</h1>
     <p>Discover the art of minimalist photography with our curated portfolio.</p>
     <button>View portfolio</button>
-    <img
-      src="https://images.pexels.com/photos/11894290/pexels-photo-11894290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      alt=""
-    />
+    <img src="../../public/photograph.png" alt="" />
   </section>
 </template>
 

@@ -1,10 +1,10 @@
 <template>
   <section class="projects">
     <div class="bentogrid">
-      <div class="item item1"><img src="" alt="Landscape" /></div>
-      <div class="item item2"><img src="" alt="Children" /></div>
-      <div class="item item3"><img src="" alt="Couple" /></div>
-      <div class="item item4"><img src="" alt="Beach" /></div>
+      <div class="item item1"><img src="../../public/paisagem.png" alt="Landscape" /></div>
+      <div class="item item2"><img src="../../public/children.png" alt="Children" /></div>
+      <div class="item item3"><img src="../../public/casal1.png" alt="Couple" /></div>
+      <div class="item item4"><img src="../../public/casal2.png" alt="Beach" /></div>
     </div>
     <div class="description">
       <h2>Meus projetos</h2>
@@ -47,13 +47,13 @@
 
 .item {
   background-color: #fff;
-  padding: 10px;
   border-radius: 8px;
 }
 
 .item img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
   border-radius: 8px;
 }
