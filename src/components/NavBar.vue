@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav .logo {
-  background-color: red;
+  background-color: rgb(252, 252, 252);
   width: 7vw;
   height: 5vh;
 }

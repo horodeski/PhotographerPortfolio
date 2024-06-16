@@ -19,7 +19,24 @@ body {
 a {
   font-family: 'Source Sans 3', sans-serif !important;
   color: #f7fffb;
+  transition: 0.2s all ease-in-out;
   text-decoration: none;
+}
+
+a:hover {
+  display: block;
+  text-shadow:
+    0 0 1px #6b6b6b,
+    0 0 2px #6b6b6b,
+    0 0 4px #6b6b6b,
+    0 0 8px #6b6b6b;
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) 1s 1s infinite;
+}
+
+input:focus {
+  border: white 1px solid !important;
 }
 
 h1,

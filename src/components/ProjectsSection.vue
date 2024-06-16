@@ -8,7 +8,9 @@
     </div>
     <div class="description">
       <h2>Our Gallery</h2>
-      <p>Explore Our Work</p>
+      <a href="">
+        <p>Explore Our Work</p>
+      </a>
     </div>
   </section>
 </template>

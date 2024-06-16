@@ -3,21 +3,25 @@
     <div class="col">
       <h2>Services</h2>
       <div class="card" v-for="service in services" :key="service.title">
-        <span>{{ service.title }}</span>
-        <div>
-          <p>{{ service.description }}</p>
-          <i class="ph ph-arrow-right"></i>
-        </div>
+        <a href="">
+          <span>{{ service.title }}</span>
+          <div>
+            <p>{{ service.description }}</p>
+            <i class="ph ph-arrow-right"></i>
+          </div>
+        </a>
       </div>
     </div>
     <div class="col">
       <h2>Experience</h2>
       <div class="card" v-for="experience in experiences" :key="experience.title">
-        <span>{{ experience.title }}</span>
-        <div>
-          <p>{{ experience.description }}</p>
-          <i class="ph ph-arrow-right"></i>
-        </div>
+        <a href="">
+          <span>{{ experience.title }}</span>
+          <div>
+            <p>{{ experience.description }}</p>
+            <i class="ph ph-arrow-right"></i>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -70,7 +74,7 @@ const experiences = [
   display: flex;
   flex-direction: column;
   gap: 1vh;
-  transition: 0.3s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 
 .about .col .card div {
@@ -78,12 +82,16 @@ const experiences = [
   justify-content: space-between;
   align-items: center;
 }
+
+.about .col .card * {
+  color: #d5d5d5 !important;
+}
+
 .about .col .card div i {
   font-size: 2em;
-  color: #72656d;
 }
-.about .col .card:hover div i {
-  color: #f7fffb;
+.about .col .card:hover * {
+  color: #f7fffb !important;
 }
 
 .col .card:last-child {
