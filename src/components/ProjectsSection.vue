@@ -64,4 +64,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media (max-width: 860px) {
+  .projects {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    gap: 7vh;
+  }
+  .bentogrid {
+    width: 100%;
+  }
+}
 </style>

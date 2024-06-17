@@ -97,4 +97,11 @@ const experiences = [
 .col .card:last-child {
   border-bottom: 1px solid #f7fffb;
 }
+
+@media (max-width: 860px) {
+  .about {
+    flex-direction: column;
+    gap: 7vh;
+  }
+}
 </style>

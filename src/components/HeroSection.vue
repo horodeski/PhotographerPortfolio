@@ -26,4 +26,13 @@
   margin-top: 5vh;
   border-radius: 10px;
 }
+.hero * {
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    gap: 4vh;
+  }
+}
 </style>

@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3vh;
+  gap: 5vh;
   padding: 10vw;
 }
 
@@ -27,12 +27,28 @@
   background-color: transparent;
   color: #f7fffb;
   outline: none;
+  flex: 1;
   width: 20vw;
   border-radius: 7px;
+  min-width: 245px;
+}
+
+button {
+  min-width: 75px;
 }
 
 .box-email {
   display: flex;
+  flex-wrap: wrap;
   gap: 1vw;
+}
+
+@media (max-width: 860px) {
+  button {
+    flex: 1;
+  }
+  .contact {
+    gap: 3vh;
+  }
 }
 </style>

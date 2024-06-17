@@ -6,7 +6,10 @@
       <li><a href="">About</a></li>
       <li><a href="">Gallery</a></li>
     </ul>
-    <button>download cv</button>
+    <button>
+      <i class="ph ph-file"></i>
+      <a> View Portfolio </a>
+    </button>
   </nav>
 </template>
 
@@ -38,5 +41,26 @@ nav button {
   border-radius: 10px;
   color: white;
   background-color: transparent;
+  cursor: pointer;
+}
+/* nav button span {
+  font-size: 18px;
+} */
+
+nav button i {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  nav ul {
+    gap: 2vw;
+  }
+  nav button i {
+    display: block;
+  }
+
+  nav button a {
+    display: none;
+  }
 }
 </style>

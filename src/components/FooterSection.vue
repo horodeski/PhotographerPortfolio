@@ -56,4 +56,11 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: 860px) {
+  .rightsReserved {
+    flex-direction: column;
+    gap: 5vh;
+  }
+}
 </style>

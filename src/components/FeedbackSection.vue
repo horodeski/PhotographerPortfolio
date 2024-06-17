@@ -37,7 +37,8 @@ const testimonials = [
   {
     feedback: 'Exceptional service and stunning photography.',
     name: 'João Pereira',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7eB46iYuBJXT24DFxvaAbAsbSH9lRUAwXEdXr7hzjTJxb8jRV5LttC-UeiMFSuD953o&usqp=CAU',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7eB46iYuBJXT24DFxvaAbAsbSH9lRUAwXEdXr7hzjTJxb8jRV5LttC-UeiMFSuD953o&usqp=CAU',
     stars: 5
   },
   {
@@ -50,7 +51,8 @@ const testimonials = [
   {
     feedback: 'Captured our wedding beautifully, memories for a lifetime.',
     name: 'Paulo Lima',
-    image: 'https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/912957/91295778c2a22a7fd7d91496b859f1e0_large.jpg',
+    image:
+      'https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/912957/91295778c2a22a7fd7d91496b859f1e0_large.jpg',
     stars: 5
   },
   {
@@ -86,15 +88,17 @@ const testimonials = [
 
 .card {
   background-color: #181618;
-  padding: 2vw;
+  padding: 30px;
   width: 21vw;
+  min-width: 300px;
+  flex: 1;
   border-radius: 2vw;
 }
 
 .card img {
-  width: 3vw;
+  width: 40px;
   object-fit: cover;
-  height: 3vw;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -116,5 +120,18 @@ const testimonials = [
 
 .user i {
   color: #00b6d2 !important;
+}
+
+.cardContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  margin-top: 10vh;
+}
+
+@media (max-width: 860px) {
+  .cardContent {
+    gap: 5vw;
+  }
 }
 </style>
